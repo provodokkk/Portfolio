@@ -4,8 +4,8 @@ import projectData from "../../data/projectsData";
 
 function Projects() {
   return (
-    <section className="w-4/5 mx-auto pt-52">
-      <p className="text-7xl font-bold text-gray-dark pb-10">
+    <section className="w-11/12 sm:w-4/5 mx-auto pt-52">
+      <p className="text-5xl sm:text-7xl font-bold text-gray-dark pb-10">
         Featured Projects
       </p>
 

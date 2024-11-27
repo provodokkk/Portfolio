@@ -10,7 +10,8 @@ import {
 } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
 import { DiDjango, DiPostgresql } from "react-icons/di";
-import { SiJavascript, SiSqlite, SiSfml, SiTailwindcss } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiSqlite, SiSfml, SiTailwindcss } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 
 function ToolList({ tools }) {
   const iconsList = {
@@ -27,6 +28,8 @@ function ToolList({ tools }) {
     Bootstrap: <FaBootstrap className="text-4xl" />,
     Tailwind: <SiTailwindcss className="text-4xl" />,
     JavaScript: <SiJavascript className="text-4xl" />,
+    TypeScript: <SiTypescript className="text-4xl" />,
+    "Next.js": <RiNextjsFill className="text-4xl" />,
     Postgresql: <DiPostgresql className="text-4xl" />,
   };
   const emptyIcon = <FaVuejs className="text-4xl opacity-0" />;

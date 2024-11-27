@@ -8,14 +8,14 @@ const InfoCard = ({ label, secondSectionContent, className = "" }) => {
         {/* Left Section */}
         <div className="flex-1 flex flex-col justify-start">
           <p
-            className={twMerge("text-7xl font-bold text-gray-dark", className)}
+            className={twMerge("text-5xl sm:text-7xl font-bold text-gray-dark", className)}
           >
             {label}
           </p>
         </div>
 
         {/* Right Section */}
-        <div className="flex-1">{secondSectionContent}</div>
+        <div className="flex-1 text-lg">{secondSectionContent}</div>
       </div>
     </div>
   );

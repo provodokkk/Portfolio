@@ -4,11 +4,11 @@ import { twMerge } from "tailwind-merge";
 
 function NavbarButton({ href, label, className = "" }) {
   return (
-    <li>
+    <li className="flex justify-center sm:justify-start">
       <Link to={href}>
         <span
           className={twMerge(
-            "text-gray-dark hover:text-white font-medium text-lg md:text-xl",
+            "text-gray-dark hover:text-white font-medium text-lg sm:text-xl",
             className
           )}
         >

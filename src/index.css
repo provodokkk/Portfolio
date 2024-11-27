@@ -10,6 +10,24 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 8px; /* Scrollbar width */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+
 .white-gradient-text {
   @apply text-transparent bg-clip-text bg-gradient-to-r from-white/60 via-white to-white/60 w-fit;
 }

@@ -25,8 +25,10 @@ const aboutData = {
     list: [
       "Python",
       "JavaScript",
+      "TypeScript",
       "C++",
       "Django",
+      "Next.js",
       "React",
       "Tailwind",
       "Postgresql",

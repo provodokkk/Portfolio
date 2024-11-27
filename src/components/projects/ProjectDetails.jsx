@@ -20,8 +20,8 @@ function ProjectDetails() {
 
   return (
     <div className="w-full flex justify-center">
-      <div className="w-4/5">
-        <p className="text-7xl font-bold text-white my-24">{project.name}</p>
+      <div className="w-11/12 sm:w-4/5">
+        <p className="text-5xl sm:text-7xl font-bold text-white my-24">{project.name}</p>
         {/* Video/Image Section */}
         <div className="project-card relative border-2 border-gray-dark rounded-lg mb-24">
           {project.video ? (
@@ -60,7 +60,7 @@ function ProjectDetails() {
                 <ButtonCTA
                   key={index}
                   text={link.text}
-                  className="text-gray-light"
+                  className="text-gray-light text-2xl sm:text-3xl"
                   href={link.href}
                 />
               ))}

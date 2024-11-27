@@ -1,6 +1,47 @@
 const projectData = [
   {
     id: 1,
+    name: "Empathic Shopping Assistant",
+    image: "/evi_1.png",
+    video: "/evi.mp4",
+    description:
+      "An intelligent, empathic voice assistant helping users find the best products tailored to their needs by dynamically adjusting its behavior based on user emotions.",
+    overview: [
+      "This project was developed as part of a research initiative at UZH to study the impact of AI-driven empathy on user interactions.",
+      "The web application leverages the Hume AI API to recognize user emotions in their voice and generate responses.",
+    ],
+    coreFunctionality: [
+      {
+        headline: "Emotion Recognition and Response Generation",
+        text: "Utilizes the Hume AI API to detect emotions from user voice input and generate context-aware, empathic responses that adjust based on the user's emotional state.",
+      },
+      {
+        headline: "Dynamic Empathy Levels",
+        text: "Prompts adapt empathy levels depending on the product category. For example, the assistant demonstrates lower empathy for straightforward items like batteries and higher empathy for more emotionally charged purchases.",
+      },
+      {
+        headline: "Product Interaction",
+        text: "Supports product searches, comparisons, and alternative suggestions. Users can explore detailed product information, open links to products, and receive tailored recommendations.",
+      },
+    ],
+    objective: [
+      "The project aimed to build a conversational AI application that enhances user experience through dynamic empathy adjustment, supporting ongoing research in AI's emotional intelligence and its practical applications.",
+      "It also served to explore advanced AI interaction tools and frameworks, focusing on building efficient prompts and a responsive, user-friendly web interface.",
+    ],
+    tools: ["Next.js", "TypeScript", "React", "HTML", "CSS", "Hume AI API"],
+    links: [
+      {
+        text: "GitHub",
+        href: "https://github.com/provodokkk/EVI",
+      },
+      {
+        text: "Website",
+        href: "https://evi-sage.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 2,
     name: "Number Plate Recognition",
     image: "/voiture_1.png",
     video: "/voiture.mp4",
@@ -54,7 +95,7 @@ const projectData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Blog Platform",
     image: "/verve_1.png",
     video: "/verve.mp4",
@@ -103,42 +144,6 @@ const projectData = [
       {
         text: "Website",
         href: "https://provodokkk.github.io/Blog-Platform/",
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: "Graphical Editor",
-    image: "/graphical_editor_1.png",
-    description:
-      "A console-based graphic editor supporting circles and rectangles with nested grouping, allowing users to click for shape details and hierarchy.",
-    overview: [
-      "The Graphical Editor is a C++ console-based application for creating and manipulating basic geometric shapes, such as circles and rectangles, which can be grouped and organized hierarchically.",
-      "The program implements the back-end logic and a visual interface using the SFML library, allowing users to interact with and analyze shapes and their groups within a console.",
-    ],
-    coreFunctionality: [
-      {
-        headline: "Shape and Group Creation",
-        text: "Users can create circles and rectangles of varying sizes and positions. Shapes can exist independently or be grouped into collections that support multi-level nesting.",
-      },
-      {
-        headline: "Selection and Analysis",
-        text: "Allows users to select elements by coordinates to receive detailed information in the console, including shape attributes and nesting level, providing a clear structure of element hierarchy.",
-      },
-      {
-        headline: "Element Manipulation",
-        text: "Includes features for adding and deleting elements, positioning and repositioning shapes, and moving them between groups or to the main workspace.",
-      },
-    ],
-    objective: [
-      "The application was developed to explore design patterns, with a focus on the 'builder' and 'iterator' patterns. By providing functions for creating, grouping, and interacting with shapes, the project demonstrates the practical implementation of design patterns within a structured graphical editor.",
-      "The project involved analyzing requirements, selecting suitable design patterns, and successfully implementing them in C++. Through this, it enhanced knowledge in backend logic and structured design within a graphical context.",
-    ],
-    tools: ["C++", "SFML"],
-    links: [
-      {
-        text: "GitHub",
-        href: "https://github.com/provodokkk/GraphicsEditor",
       },
     ],
   },

@@ -11,7 +11,7 @@ function AboutDetails() {
 
   return (
     <div className="w-full flex justify-center">
-      <div className="w-4/5">
+      <div className="w-11/12 sm:w-4/5">
         <InfoCard
           label={about.headline}
           secondSectionContent={<PlainText paragraphs={about.text} />}

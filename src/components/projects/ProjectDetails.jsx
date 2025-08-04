@@ -14,7 +14,7 @@ function ProjectDetails() {
 
   if (!project) {
     return (
-      <NotFoundPage errorMessage={`Project ${params.projectId} — Not found`} />
+      <NotFoundPage errorMessage={`Project ${projectId} — Not found`} />
     );
   }
 
@@ -23,7 +23,7 @@ function ProjectDetails() {
       <div className="w-11/12 sm:w-4/5">
         <p className="text-5xl sm:text-7xl font-bold text-white my-24">{project.name}</p>
         {/* Video/Image Section */}
-        <div className="project-card relative border-2 border-gray-dark rounded-lg mb-24">
+        <div className="project-card relative border-2 border-gray-dark rounded-lg mb-24 overflow-hidden">
           {project.video ? (
             <video className="w-full" autoPlay controls loop muted>
               <source src={project.video} type="video/mp4" />

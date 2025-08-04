@@ -8,12 +8,11 @@ function About() {
 
       <div className="flex flex-col lg:flex-row lg:items-center relative">
         <div className="lg:w-2/3 flex flex-col justify-center">
-          <p className="text-2xl sm:text-3xl font-medium mb-6">
-            Currently an assistant in AI Empathy Research at the University of
-            Zurich.
+          <p className="text-3xl sm:text-3xl font-bold mb-8 text-white">
+            Currently a Research Assistant at ETH & UZH.
           </p>
-          <p className="text-2xl sm:text-3xl font-medium mb-14">
-            I am living in Bern for now, passionate about connecting with
+          <p className="text-xl sm:text-2xl font-normal text-gray-light mb-14 leading-relaxed">
+            I am living in Bern, passionate about connecting with
             others, learning new things, and exploring how technology can
             enhance human interaction.
           </p>

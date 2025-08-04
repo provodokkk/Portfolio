@@ -1,6 +1,67 @@
 const projectData = [
-  {
+    {
     id: 1,
+    name: "Cary Ally",
+    image: "/cary_ally_1.png",
+    video: "/cary_ally.mp4",
+    description:
+      "A voice-based iOS companion app that offers emotionally intelligent conversations to support older adults dealing with loneliness, memory loss, or dementia, using real-time emotion recognition and personalized interaction.",
+    overview: [
+      "Cary Ally is a voice-based iOS companion app designed to support older adults facing loneliness, memory loss, or early-stage dementia. Developed as part of a social impact initiative, the app offers warm, empathic conversations that help users feel heard, valued, and emotionally connected.",
+      "The app was built solo from the ground up using TypeScript and React Native, and it's available for download on the App Store. It continues to grow through ongoing improvements and feature updates.",
+    ],
+    coreFunctionality: [
+      {
+        headline: "Emotion Recognition and Adaptive Voice",
+        text: "Uses Hume AI to interpret emotional signals from the user's voice and generate emotionally aligned, context-aware responses in real time.",
+      },
+      {
+        headline: "Long-Term Memory via Custom Tools",
+        text: "Stores key user details (e.g., names, preferences, life facts) to create continuity across conversations. These memories are surfaced naturally by the AI, enabling a sense of familiarity and trust.",
+      },
+      {
+        headline: "Activity-Based Conversations",
+        text: "Offers a menu of guided activities — from Daily News and Gratitude Exercises to Trivia Quizzes and Brain Teasers — to stimulate engagement and emotional connection.",
+      },
+      {
+        headline: "Scheduling and Accessibility",
+        text: "Users can schedule future calls through voice or UI, receive reminders, and customize voice settings (speed, style) to improve accessibility.",
+      },
+      {
+        headline: "Chat History and Privacy Control",
+        text: "Provides access to past conversations and gives users full control over what information is stored or deleted.",
+      },
+    ],
+    objective: [
+      "The goal was to create an AI companion that behaves more like a friend than a voice assistant — emotionally intelligent, deeply personal, and able to sustain meaningful conversations over time. The app supports research in AI empathy and conversational design, contributing to a broader effort to reduce loneliness among older populations.",
+      "The project also demonstrates the use of long-term memory emulation and seamless interaction without breaking conversational flow.",
+    ],
+    tools: ["Next.js", "TypeScript", "React", "HTML", "CSS", "Hume AI API"],
+    links: [
+      {
+        text: "App Store",
+        href: "https://apps.apple.com/ch/app/cary-ally-voice-companion-ai/id6743964458?l=en-GB",
+      },
+      {
+        text: "Website",
+        href: "https://www.caryally.com/",
+      },
+      {
+        text: "LinkedIn",
+        href: "https://www.linkedin.com/company/caryally/posts/",
+      },
+      {
+        text: "X (Twitter)",
+        href: "https://x.com/cary_ally",
+      },
+      {
+        text: "Facebook",
+        href: "https://www.facebook.com/mycaryally/",
+      },
+    ],
+  },
+  {
+    id: 2,
     name: "Empathic Shopping Assistant",
     image: "/evi_1.png",
     video: "/evi.mp4",
@@ -41,7 +102,7 @@ const projectData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Number Plate Recognition",
     image: "/voiture_1.png",
     video: "/voiture.mp4",
@@ -91,59 +152,6 @@ const projectData = [
       {
         text: "GitHub",
         href: "https://github.com/provodokkk/Django-Number-Plate-Recognition",
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: "Blog Platform",
-    image: "/verve_1.png",
-    video: "/verve.mp4",
-    description:
-      "A web app with blog posts, allowing users to read, comment, and enjoy a responsive design across devices.",
-    overview: [
-      "The Blog Platform is a responsive, modern web application developed to provide users with an intuitive and interactive experience for reading and engaging with articles. Built with Bootstrap 5 for a fully adaptive design, the platform ensures accessibility across all devices and screen sizes.",
-      "This project focuses on user-centric features, such as registration, login, and profile customization, allowing users to read, comment, and manage their information on a highly interactive blog platform.",
-    ],
-    coreFunctionality: [
-      {
-        headline: "Responsive Design",
-        text: "Designed using Bootstrap 5, the platform is fully adaptive, providing a seamless user experience across devices and screen sizes, from desktops to mobile phones.",
-      },
-      {
-        headline: "User Registration and Authentication",
-        text: "The platform enables users to register, log in, and securely manage their session to access content and interact with other features.",
-      },
-      {
-        headline: "Profile Management",
-        text: "Users can update their profile information, including full name, nickname, gender, phone number, country, address, email, website, and educational background. This feature adds a layer of personalization to the user experience.",
-      },
-      {
-        headline: "Article Browsing and Commenting",
-        text: "Users can read and interact with articles by adding or deleting comments. Comments add interactivity and enable users to engage with the content and other readers.",
-      },
-    ],
-    objective: [
-      "The primary objective was to develop a fully responsive blog platform while enhancing skills in frontend and backend web development.",
-      "Additional goals included gaining experience with adaptive design principles using Bootstrap 5, implementing core web development features, and building a user-friendly interface with enhanced functionality for user authentication and profile management.",
-    ],
-    tools: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "SQLite",
-      "Vue",
-      "NodeJS",
-    ],
-    links: [
-      {
-        text: "GitHub",
-        href: "https://github.com/provodokkk/Blog-Platform",
-      },
-      {
-        text: "Website",
-        href: "https://provodokkk.github.io/Blog-Platform/",
       },
     ],
   },

@@ -7,6 +7,7 @@ import {
   FaNodeJs,
   FaCss3Alt,
   FaBootstrap,
+  FaBrain,
 } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
 import { DiDjango, DiPostgresql } from "react-icons/di";
@@ -31,6 +32,7 @@ function ToolList({ tools }) {
     TypeScript: <SiTypescript className="text-4xl" />,
     "Next.js": <RiNextjsFill className="text-4xl" />,
     Postgresql: <DiPostgresql className="text-4xl" />,
+    "Hume AI API": <FaBrain className="text-4xl" />,
   };
   const emptyIcon = <FaVuejs className="text-4xl opacity-0" />;
 

@@ -18,7 +18,7 @@ function Hero() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-y-6 sm:gap-y-10 pt-8 sm:pt-16">
         <InfoColumn
           header="CURRENT"
-          text="AI Empathy Research & Prompt Engineering at UZH"
+          text="Research Assistant at ETH & UZH"
         />
         <InfoColumn
           header="LOCATION"

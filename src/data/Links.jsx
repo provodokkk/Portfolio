@@ -10,7 +10,7 @@ const links = [
   {
     label: "Resume",
     icon: <FaFileAlt />,
-    href: "https://drive.google.com/file/d/1t-Np_0byZjiwbExYJT2oUfW_2Hzhq1Ej/view",
+    href: "https://drive.google.com/file/d/12W0YsnwP0t5yN8S4qo9Ipc1S35wymnWa/view",
   },
   {
     label: "Email",

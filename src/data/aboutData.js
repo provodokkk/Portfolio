@@ -3,8 +3,9 @@ const aboutData = {
     headline: "About",
     text: [
       "Hello! My name is Danylo, and I'm a software developer. I currently live in Switzerland and am learning German.",
-      "Swimming has been a significant part of my life for nearly a decade. This experience has taught me discipline, perseverance, and the importance of continuous improvement—values I carry into my professional life.",
-      "At the moment, I am assisting a professor at the University of Zurich in the AI Empathy Research Initiative. My work focuses on developing optimized prompts and software for AI-driven research. This role allows me to apply my programming skills while deepening my understanding of how AI solutions can influence human decision-making, bridging the gap between technology and human psychology.",
+      "Swimming has been a significant part of my life for nearly a decade. This experience has taught me discipline, perseverance, and the importance of continuous improvement — values I carry into my professional life.",
+      "At the moment, I am working as a Research Assistant at ETH & UZH. My work focuses on developing optimized prompts and software for AI-driven research, collaborating with professors from both universities on joint projects. This role allows me to apply my programming skills while deepening my understanding of how AI solutions can influence human decision-making, bridging the gap between technology and human psychology.",
+      "In parallel, I'm co-developing Cary Ally, an iOS voice companion app designed to support older adults through emotionally intelligent conversations. This project brings together my passion for human-centered design and my technical expertise, with the goal of making AI feel more personal, supportive, and genuinely useful in everyday life.",
     ],
   },
   education: {
@@ -15,8 +16,8 @@ const aboutData = {
         text: "Bachelor's degree of Computer Engineering",
       },
       {
-        headline: "University of Zurich",
-        text: "Visiting student, Speciality in Informatics",
+        headline: "ETH Zurich & University of Zurich",
+        text: "Research Assistant, Speciality in AI and Human-Computer Interaction",
       },
     ],
   },

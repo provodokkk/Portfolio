@@ -20,7 +20,7 @@ function Footer() {
         </div>
 
         <div className="flex lg:justify-end">
-          <span className="text-gray-dark text-lg">© Danylo Provodov 2024</span>
+          <span className="text-gray-dark text-lg">© Danylo Provodov 2025</span>
         </div>
       </div>
     </div>

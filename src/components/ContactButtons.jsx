@@ -1,6 +1,5 @@
 import React from "react";
 import links from "../data/Links";
-import ButtonCTA from "./ButtonCTA";
 
 function ContactButtons() {
   return (
@@ -8,20 +7,26 @@ function ContactButtons() {
       {links.map(({ href, label }) => {
         if (label === "Email") return null;
         return (
-          <ButtonCTA
+          <a
             key={label}
-            text={label}
-            className="text-gray-light text-2xl sm:text-3xl"
             href={href}
-          />
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={label}
+            className="text-gray-light text-2xl sm:text-3xl font-semibold hover:underline cursor-pointer"
+          >
+            {label}
+          </a>
         );
       })}
 
-      <ButtonCTA
-        text="danylo.provodov@gmail.com"
-        className="text-white text-xl sm:text-3xl"
+      <a
         href="mailto:danylo.provodov@gmail.com"
-      />
+        aria-label="Email"
+        className="text-white text-xl sm:text-3xl font-semibold hover:underline cursor-pointer"
+      >
+        danylo.provodov@gmail.com
+      </a>
     </div>
   );
 }

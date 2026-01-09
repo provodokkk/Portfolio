@@ -2,10 +2,10 @@ const aboutData = {
   about: {
     headline: "About",
     text: [
-      "Hello! My name is Danylo, and I'm a software developer. I currently live in Switzerland and am learning German.",
+      "Hello! My name is Danylo, and I'm a software developer based in Switzerland.",
       "Swimming has been a significant part of my life for nearly a decade. This experience has taught me discipline, perseverance, and the importance of continuous improvement — values I carry into my professional life.",
-      "At the moment, I am working as a Research Assistant at ETH & UZH. My work focuses on developing optimized prompts and software for AI-driven research, collaborating with professors from both universities on joint projects. This role allows me to apply my programming skills while deepening my understanding of how AI solutions can influence human decision-making, bridging the gap between technology and human psychology.",
-      "In parallel, I'm co-developing Cary Ally, an iOS voice companion app designed to support older adults through emotionally intelligent conversations. This project brings together my passion for human-centered design and my technical expertise, with the goal of making AI feel more personal, supportive, and genuinely useful in everyday life.",
+      "I am currently a founding engineer at Cary Ally, an iOS voice companion app designed to support older adults through emotionally intelligent conversations. I work on building and evolving the product, with a focus on creating practical, human-centered software that is genuinely useful in everyday life.",
+      "In parallel, I contribute as a Research Assistant at ETH & UZH, where I develop software tools and prompt-based workflows for AI-driven research projects, collaborating with researchers across both institutions.",
     ],
   },
   education: {

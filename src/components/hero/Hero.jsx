@@ -18,7 +18,7 @@ function Hero() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-y-6 sm:gap-y-10 pt-8 sm:pt-16">
         <InfoColumn
           header="CURRENT"
-          text="Research Assistant at ETH & UZH"
+          text={["Research Assistant at ETH & UZH", "Founding Engineer at Cary Ally"]}
         />
         <InfoColumn
           header="LOCATION"
@@ -27,7 +27,7 @@ function Hero() {
         />
         <InfoColumn
           header="PAST"
-          text="Kyiv Polytechnic University, Computer Engineering B.Sc."
+          text="Kyiv Polytechnic University - BSc Computer Engineering"
           className="md:col-start-10 md:col-span-3"
         />
       </div>

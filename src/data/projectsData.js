@@ -5,10 +5,10 @@ const projectData = [
     image: "/cary_ally_1.png",
     video: "/cary_ally.mp4",
     description:
-      "A voice-based iOS companion app that offers emotionally intelligent conversations to support older adults dealing with loneliness, memory loss, or dementia, using real-time emotion recognition and personalized interaction.",
+      "A production iOS companion app focused on cognitive stimulation and emotional support, featuring voice-based interactions, multilingual support, and AI-driven conversations.",
     overview: [
-      "Cary Ally is a voice-based iOS companion app designed to support older adults facing loneliness, memory loss, or early-stage dementia. Developed as part of a social impact initiative, the app offers warm, empathic conversations that help users feel heard, valued, and emotionally connected.",
-      "The app was built solo from the ground up using TypeScript and React Native, and it's available for download on the App Store. It continues to grow through ongoing improvements and feature updates.",
+      "Cary Ally is a voice-based iOS companion app designed to support older adults facing loneliness, memory loss, or early-stage dementia. Developed as part of a social impact initiative, the app focuses on warm, empathetic conversations that help users feel heard, valued, and emotionally connected in everyday life.",
+      "I am the founding engineer of Cary Ally and responsible for building and shipping the production iOS application. The app was developed from the ground up using TypeScript and React Native and is available on the App Store. It continues to evolve through ongoing feature development, performance improvements, and iteration based on real user needs and constraints.",
     ],
     coreFunctionality: [
       {
@@ -21,11 +21,15 @@ const projectData = [
       },
       {
         headline: "Activity-Based Conversations",
-        text: "Offers a menu of guided activities — from Daily News and Gratitude Exercises to Trivia Quizzes and Brain Teasers — to stimulate engagement and emotional connection.",
+        text: "Offers a menu of guided activities – from Daily News and Gratitude Exercises to Trivia Quizzes and Brain Teasers – to stimulate engagement and emotional connection.",
       },
       {
         headline: "Scheduling and Accessibility",
         text: "Users can schedule future calls through voice or UI, receive reminders, and customize voice settings (speed, style) to improve accessibility.",
+      },
+      {
+        headline: "Multilingual Support",
+        text: "Supports conversations and UI content in 8 languages, including multilingual AI voice interactions. Language handling is integrated across prompts, memory, and activity flows to ensure consistent behavior and user experience regardless of language.",
       },
       {
         headline: "Chat History and Privacy Control",
@@ -33,8 +37,8 @@ const projectData = [
       },
     ],
     objective: [
-      "The goal was to create an AI companion that behaves more like a friend than a voice assistant — emotionally intelligent, deeply personal, and able to sustain meaningful conversations over time. The app supports research in AI empathy and conversational design, contributing to a broader effort to reduce loneliness among older populations.",
-      "The project also demonstrates the use of long-term memory emulation and seamless interaction without breaking conversational flow.",
+      "The primary goal of Cary Ally is to create an AI companion that behaves more like a supportive presence than a traditional voice assistant – emotionally intelligent, context-aware, and capable of sustaining meaningful conversations over time.",
+      "From a technical perspective, this meant designing systems that balance responsiveness, emotional alignment, and reliability. The project also supports ongoing research in AI empathy and conversational design, contributing to broader efforts to reduce loneliness and improve well-being among older populations.",
     ],
     tools: ["Next.js", "TypeScript", "React", "HTML", "CSS", "Hume AI API"],
     links: [
@@ -66,7 +70,7 @@ const projectData = [
     image: "/evi_1.png",
     video: "/evi.mp4",
     description:
-      "An intelligent, empathic voice assistant helping users find the best products tailored to their needs by dynamically adjusting its behavior based on user emotions.",
+      "An experimental voice assistant prototype that adapts its responses based on user input and conversational context, built to explore empathic AI interactions.",
     overview: [
       "This project was developed as part of a research initiative at UZH to study the impact of AI-driven empathy on user interactions.",
       "The web application leverages the Hume AI API to recognize user emotions in their voice and generate responses.",
@@ -107,7 +111,7 @@ const projectData = [
     image: "/voiture_1.png",
     video: "/voiture.mp4",
     description:
-      "A web app that enables users to recognize vehicles and license plate numbers in uploaded files.",
+      "A web-based application that integrates a pre-trained license plate recognition model to detect and display results from uploaded images and videos.",
     overview: [
       "The License Plate Recognition (LPR) Web Application is an advanced web-based platform designed to automatically recognize vehicle license plates from images and videos. This application leverages pre-trained AI models to detect and read license plates, offering an intuitive and user-friendly experience for its users.",
       "The main goal of this project is to provide an easy-to-use tool for processing photos and videos containing vehicles, extracting information about license plate numbers. Whether it's for security purposes, monitoring, or data collection, the LPR system automates the process of recognizing vehicles and their associated license plates.",

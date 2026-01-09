@@ -32,8 +32,9 @@ function AboutDetails() {
         />
         <InfoCard
           label="Let's connect!"
-          className="text-white"
+          className="text-gray-light"
           secondSectionContent={<SectionCTA />}
+          id="contact"
         />
       </div>
     </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import { twMerge } from "tailwind-merge";
 
-const InfoCard = ({ label, secondSectionContent, className = "" }) => {
+const InfoCard = ({ label, secondSectionContent, className = "", id = "" }) => {
   return (
-    <div className="w-full mt-24">
+    <div className="w-full mt-24" id={id || undefined}>
       <div className="flex flex-col xl:flex-row space-y-8 xl:space-y-0 xl:space-x-8">
         {/* Left Section */}
         <div className="flex-1 flex flex-col justify-start">

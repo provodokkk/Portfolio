@@ -6,12 +6,18 @@ import { useLocation } from "react-router-dom";
  * This ensures users always see the top of the page when navigating
  */
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    // Scroll to top immediately when route changes (override smooth scroll behavior)
-    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-  }, [pathname]);
+    // If there's a hash (like #contact) or sessionStorage flag, don't scroll to top
+    // Let the Navbar component handle the scroll
+    if (hash || sessionStorage.getItem("scrollToContact") === "true") {
+      return;
+    }
+    
+    // Scroll to top smoothly when route changes
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, [pathname, hash]);
 
   return null;
 }

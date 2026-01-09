@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 function ButtonCTA({ text, href = "#", className = "text-blue-custom" }) {
   const classNames = twMerge(
-    "text-3xl font-bold hover:underline cursor-pointer",
+    "text-3xl hover:underline cursor-pointer font-bold",
     className
   );
 

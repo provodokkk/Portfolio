@@ -1,7 +1,6 @@
 import React from "react";
 import InfoCard from "../InfoCard";
 import ToolList from "../ToolList";
-import ButtonCTA from "../ButtonCTA";
 import PlainText from "../PlainText";
 import { useParams } from "react-router-dom";
 import FormattedText from "../FormattedText";
@@ -57,12 +56,16 @@ function ProjectDetails() {
           secondSectionContent={
             <div className="flex flex-col space-y-4 mt-8">
               {projectData[projectId - 1].links.map((link, index) => (
-                <ButtonCTA
+                <a
                   key={index}
-                  text={link.text}
-                  className="text-gray-light text-2xl sm:text-3xl"
                   href={link.href}
-                />
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={link.text}
+                  className="text-gray-light text-2xl sm:text-3xl font-semibold hover:underline cursor-pointer"
+                >
+                  {link.text}
+                </a>
               ))}
             </div>
           }
